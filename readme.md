@@ -1,14 +1,14 @@
 # Teste ponta a ponta com Cypress
 
-Projeto de exemplo para demonstrar testes ponta a ponta (e2e) escritos com [Cypress](https://cypress.io) em execução no GitHub Actions.
+Projeto de exemplo do Curso de Cypress por Walmyr Filho para demonstrar testes ponta a ponta (e2e) escritos com [Cypress](https://cypress.io) em execução no GitHub Actions.
 
 ## Pré requisitos
 
 Para clonar e executar este projeto, você precisará de:
 
-- [git](https://git-scm.com/downloads) (usei a versão `2.34.1` enquanto escrevia este documento)
-- [Node.js](https://nodejs.org/en/) (usei a versão `v18.15.0` ao escrever este documento)
-- npm (usei a versão `9.5.0` ao escrever este documento)
+- [git](https://git-scm.com/downloads) (versão `2.34.1` implementada no projeto)
+- [Node.js](https://nodejs.org/en/) (versão `v18.15.0` implementada no projeto)
+- npm (usei a versão `9.5.0` implementada no projeto)
 
 **Observação:** Ao instalar o Node.js, o npm é instalado automaticamente. 🚀
 
@@ -26,7 +26,7 @@ Faça uma cópia do arquivo [`cypress.env.example.json`](./cypress.env.example.j
 
 ## Executando os testes
 
-Neste projeto, você pode executar testes nos modos interativo e headless, tanto em viewports de desktop quanto de tablets.
+Neste projeto, os testes pode ser executados nos modos headless e interativo, tanto em viewports de desktop quanto de tablets.
 
 ### Modo Hedless
 
@@ -42,4 +42,4 @@ Execute `npm run cy:open:tablet` para abrir o __Cypress App__ para executar test
 
 ___
 
-Feito com ❤️ por [seu-nome-aqui](https://seu-site-ou-perfil-github-aqui).
+Feito com ❤️ por [Catarina Calori](https://github.com/cabcalori).
