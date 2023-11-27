@@ -1,4 +1,4 @@
-/*{
+{
     "extends": [
       "plugin:cypress/recommended"
     ],
@@ -7,5 +7,5 @@
       "cypress/assertion-before-screenshot": "error",
       "cypress/no-pause": "error"
     }
-  }*/
+  }
   
