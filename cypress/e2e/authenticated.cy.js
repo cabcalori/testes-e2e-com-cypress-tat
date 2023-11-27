@@ -35,14 +35,8 @@ describe('Cenários onde a autenticação é uma pré condição', () => {
 
   it('logs out', { tags: '@desktop-and-tablet' }, () => {
     cy.visit('/')
-    cy.wait('@getNotes')
+    cy.wait(2000)
 
-    //teste com tamanho da tela menor que 768 - breakpoint
-    if (Cypress.config('viewportWidth') < Cypress.env('viewportWidthBreakpoint')) {
-      cy.get('.navbar-toggle.collapsed')
-        .should('be.visible')
-        .click()
-    }
     cy.contains('.nav a', 'Logout').click()
 
     cy.get('#email').should('be.visible')
