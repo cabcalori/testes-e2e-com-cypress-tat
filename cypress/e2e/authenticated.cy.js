@@ -33,7 +33,7 @@ describe('Cenários onde a autenticação é uma pré condição', () => {
       .should('be.equal', 'Complete')
   })
 
-  it('logs out', () => {
+  it('logs out', { tags: '@desktop-and-tablet' }, () => {
     cy.visit('/')
     cy.wait('@getNotes')
 
