@@ -1,7 +1,7 @@
 {
   "name": "cypress-e2e",
   "version": "1.0.0",
-  "description": "TBD.",
+  "description": "Projeto de exemplo para demonstrar testes ponta a ponta (e2e) escritos com [Cypress](https://cypress.io) em execução no GitHub Action",
   "main": "cypress.config.js",
   "scripts": {
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
